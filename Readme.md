@@ -10,7 +10,8 @@
 * Optimization opportunities available
 
 📷 *PageSpeed screenshots attached for reference*
-![PageSpeed screenshots](image.png)
+![PageSpeed screenshots Mobile](image-2.png)
+![PageSpeed screenshots Desktop](image-1.png)
 ---
 
 ## ✅ My Approach
