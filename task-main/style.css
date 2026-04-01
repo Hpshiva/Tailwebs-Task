@@ -51,13 +51,24 @@ ul {
 .i-circle i {
   color: #0e165d;
 }
-
+.line-block{
+  display: block;
+}
 .btn-outline {
   padding: 0.7rem 1.5rem;
   border: 0.5px solid #272f6e;
   background-color: unset;
 }
-
+.bg-line{
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-image: url("images/line.png");
+}
+.background-y-center{
+  background-position-y: center;
+  background-position-x: left !important;
+}
 .bg-light {
   /* background-color: #f8f8f8; */
   background-repeat: no-repeat;
