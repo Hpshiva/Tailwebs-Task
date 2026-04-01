@@ -27,7 +27,7 @@ function TabsSection() {
               <div className="mt-lg-5 mt-4 mt-md-5 justify-content-sm-center d-flex tab-box-size">
                 <div className="d-flex align-items-start w-100 justify-content-sm-center">
                   <div
-                    className="nav text-center flex-column bold nav-pills me-3 w-100 justify-content-sm-center"
+                    className="nav text-center flex-column bold nav-pills me-md-3 w-100 justify-content-sm-center"
                     role="tablist"
                   >
                     <button

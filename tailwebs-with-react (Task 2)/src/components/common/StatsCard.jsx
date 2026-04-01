@@ -1,15 +1,15 @@
 function StatsCard({ title, description, bgColor, bgImg }) {
   return (
     <div
-      className="tab-card  stats-card p-4 rounded-4 text-white position-relative overflow-hidden"
+      className="tab-card  stats-card p-md-4 p-3 rounded-4 text-white position-relative overflow-hidden"
       style={{
         background: `${bgColor} url(${bgImg}) no-repeat center/cover`,
       }}
     >
-      <h2 className="fw-600 fs-56 fs-sm-44">{title}</h2>
+      <h2 className="fw-600 fs-56 fs-sm-30">{title}</h2>
       <div className="row">
-        <div className="col-10">
-          <p className="fs-14 fs-sm-12 mb-2 pe-5 pe-md-5">{description}</p>
+        <div className="col-md-10">
+          <p className="fs-14 fs-sm-12 mb-2  pe-md-5">{description}</p>
         </div>
       </div>
 

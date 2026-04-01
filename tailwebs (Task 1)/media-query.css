@@ -51,9 +51,11 @@
 
   .tab-box-size .nav-link,
   .tab-box-size .nav-link.active {
-    width: 80%;
+    width: 100%;
   }
-
+.bg-line{
+  background-size: contain;
+}
   .w-50 {
     width: 100% !important;
   }
