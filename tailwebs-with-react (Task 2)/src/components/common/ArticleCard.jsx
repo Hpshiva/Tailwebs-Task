@@ -25,17 +25,16 @@ function ArticleCard({ data }) {
           </div>
         </div>
 
-        <div className="d-flex mt-4 gap-2 flex-wrap-wrap">
+        <div className="d-flex justify-content-between mt-4 gap-2 gap-md-3 ">
+          <div className="d-flex gap-2 flex-wrap-wrap">
+
           {data.state?.map((stateName, index) => (
             <div className="small-box" key={index}>
               {stateName}
             </div>
           ))}
-          {/* <div className="small-box">Odisha</div>
-          <div className="small-box">Kerala</div>
-          <div className="small-box">Local Governance</div>
-          <div className="small-box">Andhra Pradesh</div>
-          <div className="small-box">Punjab</div> */}
+          </div>
+         
         </div>
       </div>
     </div>

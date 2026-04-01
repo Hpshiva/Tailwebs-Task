@@ -304,3 +304,14 @@ ul {
   transform: translateY(-6px) scale(1.03); 
   box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.1); 
 }
+
+/* .biarrow {
+color: #1577bd;
+display: inline-block;
+
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover .biarrow {
+  transform: rotate(-40deg);
+} */
