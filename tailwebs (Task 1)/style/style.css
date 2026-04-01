@@ -195,6 +195,18 @@ ul {
   border-radius: 20px;
   background-image: url("../images/covid-vaccine.png");
 }
+.tab-box-3 {
+  background-color: #4bb5cb;
+  border: none;
+  border-radius: 20px;
+  background-image: url("../images/punjab-1.png");
+}
+.tab-box-4 {
+  background-color: #2396ff;
+  border: none;
+  border-radius: 20px;background-position: center;
+  background-image: url("../images/women.png");
+}
 
 .technology {
   background-size: cover;
@@ -219,6 +231,7 @@ margin-top: 20rem;
 }
 
 .line-3 {
+  height: 4.5rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
