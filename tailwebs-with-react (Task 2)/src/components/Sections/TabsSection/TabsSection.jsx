@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import StatsCard from "../../common/StatsCard";
 import sup1 from "../../../assets/images/icu.png";
 import sup2 from "../../../assets/images/covid-vaccine.png";
-import thumb1 from "../../../assets/images/thumb1.jpg";
-import thumb2 from "../../../assets/images/thumb2.png";
+import sup3 from "../../../assets/images/punjab-1.png";
+import sup4 from "../../../assets/images/women.png";
+
 
 function TabsSection() {
   const color1 = "#4bb5cb";
@@ -86,12 +87,71 @@ function TabsSection() {
 
                 {activeTab === "profile" && (
                   <>
-                    <StatsCard
-                      title="210+"
-                      description="Cities LIVE with 10BedICU"
-                      image={sup1}
-                      bgColor="#54A9B7"
-                    />
+                  <div className="row tab-card">
+                      <div className="col-6 px-2">
+                        <StatsCard
+                          title="5000+"
+                          description="rural local bodies managing revenue & expenditure on Water Supply O&M System "
+                          bgImg={sup3}
+                          bgColor={color1}
+                        />
+                      </div>
+                      <div className="col-6 px-2">
+                        <StatsCard
+                          title="4000+"
+                          description="empowered women Self Help Groups through Social Benefits Delivery System "
+                          bgImg={sup4}
+                          bgColor={color2}
+                        />
+                      </div>
+                    </div>
+                   
+                  </>
+                )}
+                {activeTab === "messages" && (
+                  <>
+                  <div className="row tab-card">
+                      <div className="col-6 px-2">
+                        <StatsCard
+                          title="1000+"
+                          description="rural local bodies managing revenue & expenditure on Water Supply O&M System "
+                          bgImg={sup3}
+                          bgColor={color1}
+                        />
+                      </div>
+                      <div className="col-6 px-2">
+                        <StatsCard
+                          title="3400+"
+                          description="empowered women Self Help Groups through Social Benefits Delivery System "
+                          bgImg={sup4}
+                          bgColor={color2}
+                        />
+                      </div>
+                    </div>
+                   
+                  </>
+                )}
+                {activeTab === "settings" && (
+                  <>
+                  <div className="row tab-card">
+                      <div className="col-6 px-2">
+                        <StatsCard
+                          title="4300+"
+                          description="rural local bodies managing revenue & expenditure on Water Supply O&M System "
+                          bgImg={sup3}
+                          bgColor={color1}
+                        />
+                      </div>
+                      <div className="col-6 px-2">
+                        <StatsCard
+                          title="4320+"
+                          description="empowered women Self Help Groups through Social Benefits Delivery System "
+                          bgImg={sup4}
+                          bgColor={color2}
+                        />
+                      </div>
+                    </div>
+                   
                   </>
                 )}
               </div>
