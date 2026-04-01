@@ -1,0 +1,280 @@
+.topbar {
+  background: #e8f0f4;
+  font-size: 14px;
+}
+
+.logo {
+  height: 45px;
+}
+
+body,
+html {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #272f6e;
+  margin-bottom: 0rem;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: unset !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-cyan {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background-color: #4bb5c3;
+}
+
+.i-circle {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #0e165d;
+}
+
+.i-circle i {
+  color: #0e165d;
+}
+
+.btn-outline {
+  padding: 0.7rem 1.5rem;
+  border: 0.5px solid #272f6e;
+  background-color: unset;
+}
+
+.bg-light {
+  /* background-color: #f8f8f8; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/bg-texture.png");
+}
+
+.btn-blue {
+  border: none;
+  padding: 0.7rem 1.5rem;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg-banner {
+  position: relative;
+  background-size: 80% !important;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/bg-banner.png");
+}
+
+.bg-counting {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/bg-second.jpeg");
+}
+
+.bg-counting::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.counting {
+  font-size: 6rem;
+}
+
+.z-index-for-black-shade {
+  position: relative;
+  z-index: 3;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.border-card {
+  background-color: #fff;
+  border-radius: 15px;
+
+  box-shadow: 0 0 19.23px 0 #00000012;
+}
+
+.hero-section {
+  align-content: center;
+  height: 90vh;
+}
+
+.navbar {
+  position: sticky;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  top: 0px;
+}
+
+.bold .nav-link {
+  background-color: #ffffff !important;
+  border-radius: 50px !important;
+  padding: 10px 20px !important;
+  color: #0e165d !important;
+  border: 0.3px solid #0e165d;
+  font-weight: 500;
+}
+
+.bold .nav-link.active {
+  width: 100%;
+  border: none;
+  color: white !important;
+  background-color: #1577bd !important;
+}
+
+.tab-bold .nav-link {
+  background-color: #ffffff !important;
+  border-radius: 50px !important;
+  padding: 10px 35px !important;
+  color: #0e165d !important;
+  border: 0.3px solid #0e165d;
+  font-weight: 500;
+
+}
+
+.tab-bold .nav-item {
+  margin: 0 18px 18px 0;
+}
+
+.tab-bold .nav-link.active {
+  color: #ffffff !important;
+  background-color: #00B5CA !important;
+  border: 1px solid #00B5CA !important;
+  font-weight: 600;
+}
+
+.tab-box-1 {
+  background-color: #4bb5cb;
+  border: none;
+  border-radius: 20px;
+  background-image: url("images/icu.png");
+}
+
+.tab-box-2 {
+  background-color: #2396ff;
+  border: none;
+  border-radius: 20px;
+  background-image: url("images/covid-vaccine.png");
+}
+
+.technology {
+  background-size: cover;
+  background-image: url("images/digit-blue-bg.jpg");
+}
+.justify-content-start{
+  justify-content: start 
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tab-box-size{
+  width: 80%;
+}
+.coustom-margin{
+margin-top: 20rem;
+  }
+
+.bg-none {
+  background-color: unset;
+}
+
+.line-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.small-box {
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #0E165D;
+  padding: 2px 10px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.bb-24 {
+  background-color: #ecf6fb;
+  border-radius: 0px 0px 24px 24px;
+}
+
+.card-img-radius {
+  border-radius: 24px 24px 0px 0px;
+}
+
+.card-radius {
+  border-radius: 24px;
+}
+
+.tab-card {
+  height: 425px;
+}
+
+.line-break {
+  display: inline;
+}
+.w-fit{
+  width: fit-content;
+}
+.relative {
+  position: relative;
+}
+
+.girl-mockup {
+  position: absolute;
+  bottom: 0px;
+}
+
+
+
+.form-control {
+  border-radius: 30px 0px 0px 30px;
+}
+
+.email {
+  border-radius: 0px 30px 30px 0px;
+
+  background-color: #F58522;
+}
