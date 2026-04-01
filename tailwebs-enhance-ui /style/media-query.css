@@ -1,0 +1,138 @@
+/* ================= MOBILE (default styles first) ================= */
+@media (max-width: 767px) {
+  .bg-banner {
+    background-image: none;
+  }
+
+  .fs-sm-30 {
+    font-size: 30px;
+  }
+
+  .fs-sm-12 {
+    font-size: 12px;
+  }
+
+  .hero-section {
+    height: 100%;
+  }
+
+  .justify-content-sm-center {
+    justify-content: center;
+  }
+
+  .girl-mockup {
+    margin-top: -25px;
+    position: relative;
+    width: 70%;
+  }
+
+  .tab-bold .nav-link {
+    padding: 5px 9px !important;
+    margin: 0 10px 10px 0;
+    font-size: 14px;
+  }
+
+  .tab-bold .nav-item {
+    margin: 0;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tab-card {
+    height: auto;
+  }
+
+  .tab-box-size {
+    width: 100%;
+  }
+
+  .tab-box-size .nav-link,
+  .tab-box-size .nav-link.active {
+    width: 100%;
+  }
+.bg-line{
+  background-size: contain;
+}
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .fs-sm-44 {
+    font-size: 44px;
+  }
+
+  .coustom-margin {
+    margin-top: 5rem;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .line-break {
+    display: block;
+  }
+ .justify-content-md-center {
+    justify-content: center;
+  }
+  .justify-content-md-start{
+    justify-content: start;
+  }
+  .justify-content-lg-start{
+    justify-content: start;
+  }
+  .tab-bold .nav-item {
+  margin: 0 10px 16px 0;
+}
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .girl-mockup {
+    position: relative;
+    width: 70%;
+    margin-top: -4rem;
+  }
+  .bg-banner {
+    background-image: unset;
+  }
+  .tab-box-size .nav-link,
+  .tab-box-size .nav-link.active {
+    width: auto;
+  }
+  .hero-section {
+    height: 100%;
+  }
+  .coustom-margin {
+  margin-top: 8rem;
+}
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* .girl-mockup {
+    width: 40%;
+  } */
+
+  .line-break {
+    display: inline;
+  }
+}
+
+/* ================= LARGE DESKTOP (optional) ================= */
+@media (min-width: 1200px) {
+  /* .container {
+    width: 80%;
+  } */
+}
