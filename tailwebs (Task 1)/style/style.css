@@ -63,7 +63,7 @@ ul {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  background-image: url("images/line.png");
+  background-image: url("../images/line.png");
 }
 .background-y-center{
   background-position-y: center;
@@ -73,7 +73,7 @@ ul {
   /* background-color: #f8f8f8; */
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/bg-texture.png");
+  background-image: url("../images/bg-texture.png");
 }
 
 .btn-blue {
@@ -91,14 +91,14 @@ ul {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/bg-banner.png");
+  background-image: url("../images/bg-banner.png");
 }
 
 .bg-counting {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/bg-second.jpeg");
+  background-image: url("../images/bg-second.jpeg");
 }
 
 .bg-counting::before {
@@ -186,19 +186,19 @@ ul {
   background-color: #4bb5cb;
   border: none;
   border-radius: 20px;
-  background-image: url("images/icu.png");
+  background-image: url("../images/icu.png");
 }
 
 .tab-box-2 {
   background-color: #2396ff;
   border: none;
   border-radius: 20px;
-  background-image: url("images/covid-vaccine.png");
+  background-image: url("../images/covid-vaccine.png");
 }
 
 .technology {
   background-size: cover;
-  background-image: url("images/digit-blue-bg.jpg");
+  background-image: url("../images/digit-blue-bg.jpg");
 }
 .justify-content-start{
   justify-content: start 
