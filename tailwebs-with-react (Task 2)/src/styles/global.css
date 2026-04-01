@@ -301,6 +301,6 @@ ul {
 }
 
 .article-card:hover {
-  transform: translateY(-6px) scale(1.03); /* Slight lift and subtle zoom */
-  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.1); /* Soft floating shadow */
+  transform: translateY(-6px) scale(1.03); 
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.1); 
 }
